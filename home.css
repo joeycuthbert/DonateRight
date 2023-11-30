@@ -1,0 +1,84 @@
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    border: 3px solid steelblue;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.navButton{
+    color: steelblue;
+    text-decoration: none;
+}
+
+.countContain {
+    text-align: center; 
+    font-size: 64px;
+    color: steelblue;
+} 
+  
+  
+.countText{
+    text-align: center; 
+    font-size: 36px; 
+    color: firebrick; 
+}
+
+.donateButton{
+    text-align: center;
+}
+  
+.button{
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    font-size: 24px; 
+    padding: 24px 48px;
+    text-decoration: none;
+}
+
+.directory{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+
+}
+
+.candidate {
+    position: relative; /* Establish a positioning context for child elements */
+    display: flex; 
+    border: 5px solid firebrick; 
+    margin: 20px; 
+    padding: 5px;
+    background-color: steelblue;
+
+}
+
+.candidate-name{
+    font-weight: bold;
+}
+
+.candidate-position{
+    color: whitesmoke
+}
+
+.candidate-donate{
+    margin-top: auto; 
+}
+
+.candidate-info {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text horizontally */
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+  
+img {
+    max-width: 100%; /* Ensure the image is responsive and doesn't exceed the container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    border-radius: 50%;
+}
+
